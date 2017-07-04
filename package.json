@@ -1,0 +1,46 @@
+{
+  "name": "skylark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roushanj/skylark.git"
+  },
+  "author": "oliver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roushanj/skylark/issues"
+  },
+  "homepage": "https://github.com/roushanj/skylark#readme",
+  "dependencies": {
+    "@turf/buffer": "^4.4.0",
+    "@turf/collect": "^4.4.0",
+    "body-parser": "*",
+    "bower": "^1.8.0",
+    "cookie-parser": "^1.4.3",
+    "country-json": "^1.0.2",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "express-validator": "^3.1.2",
+    "img-placeholder-src": "^3.1.1-1",
+    "jquery": "^3.2.1",
+    "mapbox-gl": "^0.38.0",
+    "mongodb": "^2.2.24",
+    "mongojs": "^2.4.0",
+    "mongoose": "^4.8.7",
+    "bootstrap": "^3.3.7",
+    "browser-sync": "^2.13.0",
+    "font-awesome": "^4.6.3",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.10",
+    "gulp-header": "^1.8.7",
+    "gulp-less": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.4"
+  }
+}
