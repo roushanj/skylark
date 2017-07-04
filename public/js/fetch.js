@@ -49,7 +49,76 @@
         
           localStorage.setItem('jsonurl',"/json/src/country-by-barcode-prefix.json")
 
-        }
+        }if(localStorage.getItem('v1_valu')== 'v3'){
+            localStorage.removeItem('v1_valu');        
+        localStorage.setItem('jsonurl',"/json/src/country-by-calling-code.json")
+      }if(localStorage.getItem('v1_valu')== 'v4'){
+            localStorage.removeItem('v1_valu');        
+        localStorage.setItem('jsonurl',"/json/src/country-by-capital-city.json")
+      }if(localStorage.getItem('v1_valu')== 'v5'){
+            localStorage.removeItem('v1_valu');        
+        localStorage.setItem('jsonurl',"/json/src/country-by-continent.json")
+      }if(localStorage.getItem('v1_valu')== 'v6'){
+            localStorage.removeItem('v1_valu');        
+        localStorage.setItem('jsonurl',"/json/src/country-by-costline.json")
+      }if(localStorage.getItem('v1_valu')== 'v7'){
+            localStorage.removeItem('v1_valu');        
+        localStorage.setItem('jsonurl',"/json/src/country-by-currency-code.json")
+      }if(localStorage.getItem('v1_valu')== 'v8'){
+            localStorage.removeItem('v1_valu');        
+        localStorage.setItem('jsonurl',"/json/src/country-by-currency-name.json")
+      }if(localStorage.getItem('v1_valu')== 'v9'){
+            localStorage.removeItem('v1_valu');        
+        localStorage.setItem('jsonurl',"/json/src/country-by-domain-tld.json")
+      }if(localStorage.getItem('v1_valu')== 'v10'){
+            localStorage.removeItem('v1_valu');        
+        localStorage.setItem('jsonurl',"/json/src/country-by-elevation.json")
+      }if(localStorage.getItem('v1_valu')== 'v11'){
+            localStorage.removeItem('v1_valu');        
+        localStorage.setItem('jsonurl',"/json/src/country-by-flag.json")
+      }if(localStorage.getItem('v1_valu')== 'v12'){
+            localStorage.removeItem('v1_valu');        
+        localStorage.setItem('jsonurl',"/json/src/country-by-government-type.json")
+      }if(localStorage.getItem('v1_valu')== 'v13'){
+            localStorage.removeItem('v1_valu');        
+        localStorage.setItem('jsonurl',"/json/src/country-by-independence-date.json")
+      }if(localStorage.getItem('v1_valu')== 'v14'){
+            localStorage.removeItem('v1_valu');        
+        localStorage.setItem('jsonurl',"/json/src/country-by-iso-numeric.json")
+      }if(localStorage.getItem('v1_valu')== 'v15'){
+            localStorage.removeItem('v1_valu');        
+        localStorage.setItem('jsonurl',"/json/src/country-by-landlocked.json")
+      }if(localStorage.getItem('v1_valu')== 'v16'){
+            localStorage.removeItem('v1_valu');        
+        localStorage.setItem('jsonurl',"/json/src/country-by-languages.json")
+      }if(localStorage.getItem('v1_valu')== 'v17'){
+            localStorage.removeItem('v1_valu');        
+        localStorage.setItem('jsonurl',"/json/src/country-by-life-expectancy.json")
+      }if(localStorage.getItem('v1_valu')== 'v18'){
+            localStorage.removeItem('v1_valu');        
+        localStorage.setItem('jsonurl',"/json/src/country-by-national-dish.json")
+      }if(localStorage.getItem('v1_valu')== 'v19'){
+            localStorage.removeItem('v1_valu');        
+        localStorage.setItem('jsonurl',"/json/src/country-by-national-symbol.json")
+      }if(localStorage.getItem('v1_valu')== 'v20'){
+            localStorage.removeItem('v1_valu');        
+        localStorage.setItem('jsonurl',"/json/src/country-by-population-density.json")
+      }if(localStorage.getItem('v1_valu')== 'v21'){
+            localStorage.removeItem('v1_valu');        
+        localStorage.setItem('jsonurl',"/json/src/country-by-population.json")
+      }if(localStorage.getItem('v1_valu')== 'v22'){
+            localStorage.removeItem('v1_valu');        
+        localStorage.setItem('jsonurl',"/json/src/country-by-region-in-world.json")
+      }if(localStorage.getItem('v1_valu')== 'v23'){
+            localStorage.removeItem('v1_valu');        
+        localStorage.setItem('jsonurl',"/json/src/country-by-surface-area.json")
+      }if(localStorage.getItem('v1_valu')== 'v24'){
+            localStorage.removeItem('v1_valu');        
+        localStorage.setItem('jsonurl',"/json/src/country-by-yearly-average-temperature.json")
+      }
+
+
+
       //alert( sessionStorage.getItem('label')) 
        localStorage.getItem('jsonurl')
       var xobj = new XMLHttpRequest();
