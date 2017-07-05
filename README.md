@@ -1,6 +1,6 @@
 # skylark Maps
 
-  Steps to be followed
+  Steps to be followed<br><br>
     1. git clone http://github.com/roushanj/skylark<br>
     2.cd skylark<br>
     3.npm install<br>
