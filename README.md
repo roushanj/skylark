@@ -1,7 +1,7 @@
 # skylark Maps
 
   Steps to be followed
-    1. git clone http://github.com/roushanj/skylark
+    1. git clone http://github.com/roushanj/skylark<br>
     2.cd skylark
     3.npm install
     4.Open Terminal change to working directory
