@@ -7,6 +7,9 @@
     4.Open Terminal change to working directory<br>
     5.nodemon or node server.js or npm start<br>
     6.Goto Browser localhost:3000<br>
+
+
+  [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://blooming-cove-50804.herokuapp.com)
     
     ////////////////////////////////////
     ///////////////////////////////////
@@ -26,7 +29,7 @@
     and many more........
     
     
-      [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://blooming-cove-50804.herokuapp.com)
+    
     
     
     
