@@ -8,19 +8,20 @@
     5.nodemon or node server.js or npm start<br>
     6.Goto Browser localhost:3000<br>
     
-    ////////////////////////////////////<br><br>
-    //////////////////////////////////////////////<br><br>
+    ////////////////////////////////////
+    ///////////////////////////////////
     
     
-    About:<br><br>
+    About::
     
-    Using Google Map Api Its Takes the Data from Users and<br><br>
-    Use it to Plot The data on the Map<br><br>
-    <br><br>
+    Using Google Map Api Its Takes the Data from Users and
+    Use it to Plot The data on the Map 
     
-    Calling code<br><br>
-    population<br><br>
-    national dish<br><br>
+    
+    Calling code
+    population
+    national dish
+    barcode.
     and many more........
     
     
