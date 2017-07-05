@@ -4,14 +4,14 @@ var bodyParser = require('body-parser');
 
 var app = require('./app.js');
 
-var port = 3000;
+
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
 
 
-app.listen(port, function() {
+app.listen(process.env.PORT || 3000, function() {
 
 	console.log('server is listening');
 });
