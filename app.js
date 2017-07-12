@@ -2,14 +2,8 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var path = require('path');
 var expressValidator = require('express-validator');
-//var mongo = require('mongodb');
-//var mongoose = require('mongoose');
-//mongoose.connect('mongodb://localhost/super');
-//var db = mongoose.connection;
 
-//var main = require('./modules/main');
 var home = require('./modules/home');
-var index = require('./modules/index');
 var app = express();
 
 
@@ -48,6 +42,6 @@ app.use(expressValidator({
 }));
 
 app.use('/', home);
-app.use('/explore', index);
+
 
 module.exports = app;
