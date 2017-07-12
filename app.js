@@ -9,6 +9,7 @@ var expressValidator = require('express-validator');
 
 //var main = require('./modules/main');
 var home = require('./modules/home');
+var index = require('./modules/index');
 var app = express();
 
 
@@ -47,6 +48,6 @@ app.use(expressValidator({
 }));
 
 app.use('/', home);
-//app.use('/explore', main);
+app.use('/explore', index);
 
 module.exports = app;
