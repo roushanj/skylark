@@ -1,5 +1,3 @@
-/////////////////////////////////////////////////////////////////////////////////////////////////////
-/////////////////////////////Assembly Constituencies India////////////////////////////
 var plotAC = function(pane){
 	d3.json('../data/geojson/ac.geojson' , function(asscon){
 		var map = L.map(pane,{scrollWheelZoom:false}).setView([23.40, 83.00], 5);
@@ -76,8 +74,7 @@ var plotAC = function(pane){
 	})
 }
 
-///////////////////////////////////////////////////////////////////////////////////////////////////
-/////////////////PARLIAMENTARY CONSTITUENCIES' DATA PLOT WITH ELECTION RESULTS 2014////////////////
+
 var plotPC = function(pane){
 	d3.json('../data/geojson/pc_14.geojson' , function(parcon){
 		d3.csv('../data/csv/pc_14.csv' , function(info){
@@ -221,8 +218,6 @@ var plotPC = function(pane){
 	})
 }
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////
-/////////////////////////////DISCTRICT DATA PLOT WITH CENSUS 2001 AND 2011////////////////////////////
 var plotDistricts = function(pane){
 	d3.json('../data/geojson/dists11.geojson' , function(districts){
 		d3.csv('../data/csv/dists.csv' , function(info){
@@ -277,7 +272,7 @@ var plotDistricts = function(pane){
 			legend.onAdd = function (map) {
 			    var div = L.DomUtil.create('div', 'info legend-control')
 			    div.innerHTML +=
-			    		'<h6>Select Metric</h6>' +
+			    		'<h6>Select Options</h6>' +
 			            '<input type="button" style="clear: both" class="litrate" value="Literacy rate"></input><br>'+
 			            '<input type="button" style="clear: both" class="sexratio" value="Sex Ratio"></input><br>'+
 			            '<input type="button" style="clear: both" class="area" value="Area"></input><br>'+
@@ -383,8 +378,6 @@ var plotDistricts = function(pane){
 	})
 }
 
-///////////////////////////////////////////////////////////////////////////////////////////////////
-/////////////////////////////STATES DATA PLOT WITH CENSUS 2001 AND 2011////////////////////////////
 var plotStates = function(pane){
 	d3.json('../data/geojson/states.geojson' , function(states){
 		d3.csv('../data/csv/statesCensus.csv' , function(info){
