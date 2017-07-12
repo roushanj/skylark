@@ -22,11 +22,11 @@
     
     For Example:
     
-    Calling code
-    population
-    national dish
-    barcode.
-    and many more........
+    Parliamentry constituencies 
+    Assembly constituencies
+    Data by District
+    Data by state
+    
     
     
     
