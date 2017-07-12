@@ -1,0 +1,21 @@
+{
+  "name": "skylark",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "oliver"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/roushanj/skylark",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "leaflet": "^1.1.0"
+  }
+}

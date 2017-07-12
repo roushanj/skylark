@@ -7,7 +7,7 @@ var expressValidator = require('express-validator');
 //mongoose.connect('mongodb://localhost/super');
 //var db = mongoose.connection;
 
-var main = require('./modules/main');
+//var main = require('./modules/main');
 var home = require('./modules/home');
 var app = express();
 
@@ -47,6 +47,6 @@ app.use(expressValidator({
 }));
 
 app.use('/', home);
-app.use('/explore', main);
+//app.use('/explore', main);
 
 module.exports = app;
