@@ -31,7 +31,8 @@
 ScreenShots:-
   
   1.![Alt text](/Screenshots/homepage1.png?raw=true)
-    
+  2.![Alt text](/Screenshots/assembly_page.png?raw=true)
+  3.![Alt text](/Screenshots/parliamentarypage.png?raw=true)
     
     
     
