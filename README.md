@@ -27,7 +27,10 @@
     Assembly constituencies
     Data by District
     Data by state
-    
+  
+ScreenShots:-
+  
+  1.![Alt text](/Screenshots/homepage1.png?raw=true)
     
     
     
