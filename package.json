@@ -42,5 +42,8 @@
     "mongodb": "^2.2.24",
     "mongojs": "^2.4.0",
     "mongoose": "^4.8.7"
+  },
+  "devDependencies": {
+    "webpack": "^3.5.5"
   }
 }
